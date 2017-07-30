@@ -8,6 +8,10 @@ describe("Hero", function(){
     hero = new Hero("Oswald", 100, "Pizza")
     
   });
+
+  it("Hero should have a name", function(){
+    assert.strictEqual(hero.name, "Oswald");
+  });
 })
 
 
