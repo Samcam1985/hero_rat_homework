@@ -16,4 +16,8 @@ describe("Task", function(){
   it("Should have an urgency level", function(){
     assert.strictEqual(task.urgency_level, "High");
   });
+
+  it("Should have a reward", function(){
+    assert.strictEqual(task.reward, 50);
+  });
 })
