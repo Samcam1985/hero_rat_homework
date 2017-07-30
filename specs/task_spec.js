@@ -5,12 +5,12 @@ describe("Task", function(){
   var task;
 
   beforeEach(function(){
-    task = new Task(10, "High", 50)
+    task = new Task("Medium", "High", 50)
 
   });
 
   it("Should have a difficulty level", function(){
-    assert.strictEqual(task.difficulty_level, 10);
+    assert.strictEqual(task.difficulty_level, "Medium");
   });
 
   it("Should have an urgency level", function(){
