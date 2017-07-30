@@ -41,6 +41,12 @@ describe("Hero", function(){
     hero.increaseHealthByEating(food1);
     assert.strictEqual(hero.health, 150);
   });
+
+  it('should increase health * 1.5 if favourite food', function(){
+    hero.increaseHealthWithFavouriteFood(food1);
+    assert.strictEqual(hero.health, 175);
+  })
+  
 })
 
 
