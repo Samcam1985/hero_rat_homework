@@ -8,8 +8,9 @@ describe("Food", function(){
     food = new Food("Pizza", 50)
 
   });
-})
 
+it("Should have a name", function(){
+  assert.strictEqual(food.name, "Pizza");
+});
 
-
-
+});
