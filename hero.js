@@ -11,6 +11,10 @@ var Hero = function(name, health, favourite_food) {
   Hero.prototype.addTask = function(task) {
     this.tasks.push(task);
   }
+
+  Hero.prototype.increaseHealthByEating = function(food) {
+    this.health += food.replenishment_value;
+  }
 }
 
 
