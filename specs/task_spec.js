@@ -20,4 +20,6 @@ describe("Task", function(){
   it("Should have a reward", function(){
     assert.strictEqual(task.reward, 50);
   });
+
+ 
 })
